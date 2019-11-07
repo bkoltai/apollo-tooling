@@ -64,7 +64,7 @@ OPTIONS
   -t, --tag=tag                          The published service tag for this client
   --clientName=clientName                Name of the client that the queries will be attached to
 
-  --clientReferenceId=clientReferenceId  Reference id for the client which will match ids from client traces, will use
+  --client/enceId=clientReferenceId  Reference id for the client which will match ids from client traces, will use
                                          clientName if not provided
 
   --clientVersion=clientVersion          The version of the client that the queries will be attached to
@@ -626,7 +626,7 @@ The Apollo CLI and VS Code extension can be configured with an Apollo config fil
 
 > Note: the use of the `apollo` key in the project's package.json file for configuration is deprecated, and will no longer be supported in Apollo v3
 
-You'll need to set up your Apollo configuration for all the features of the Apollo CLI and VS Code extension to work correctly. For full details on how to do that, [visit our docs](https://www.apollographql.com/docs/references/apollo-config.html). A basic configuration (`apollo.config.js` style) looks something like this:
+You'll need to set up your Apollo configuration for all the features of the Apollo CLI and VS Code extension to work correctly. For full details on how to do that, [visit our docs](https://www.apollographql.com/docs/resources/apollo-config/). A basic configuration (`apollo.config.js` style) looks something like this:
 
 ```js
 module.exports = {
